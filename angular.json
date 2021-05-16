@@ -230,7 +230,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/core/tsconfig.lib.json",
             "project": "src/platform/core/ng-package.js"
@@ -261,7 +261,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/highlight/tsconfig.lib.json",
             "project": "src/platform/highlight/ng-package.js"
@@ -292,7 +292,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/dynamic-forms/tsconfig.lib.json",
             "project": "src/platform/dynamic-forms/ng-package.js"
@@ -326,7 +326,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/http/tsconfig.lib.json",
             "project": "src/platform/http/ng-package.js"
@@ -357,7 +357,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/markdown/tsconfig.lib.json",
             "project": "src/platform/markdown/ng-package.js"
@@ -388,7 +388,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/flavored-markdown/tsconfig.lib.json",
             "project": "src/platform/flavored-markdown/ng-package.js"
@@ -422,7 +422,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/code-editor/tsconfig.lib.json",
             "project": "src/platform/code-editor/ng-package.js"
@@ -454,7 +454,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/text-editor/tsconfig.lib.json",
             "project": "src/platform/text-editor/ng-package.js"
@@ -485,7 +485,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/echarts/tsconfig.lib.json",
             "project": "src/platform/echarts/ng-package.js"
@@ -516,7 +516,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/markdown-navigator/tsconfig.lib.json",
             "project": "src/platform/markdown-navigator/ng-package.js"
@@ -550,7 +550,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/guided-tour/tsconfig.lib.json",
             "project": "src/platform/guided-tour/ng-package.js"
@@ -581,7 +581,7 @@
       "prefix": "lib",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/platform/experimental/tsconfig.lib.json",
             "project": "src/platform/experimental/ng-package.js"

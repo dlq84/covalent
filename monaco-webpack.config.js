@@ -4,10 +4,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ['style-loader'],
-      },
-      {
         test: /\.ttf$/,
         use: ['file-loader'],
       },

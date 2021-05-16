@@ -37,7 +37,7 @@ describe('TdFullscreenDirective', () => {
 
   it('Should capture fullscreenchange event and toggle fullScreenIsActive property', async () => {
     expect(directive.fullScreenIsActive).toBeFalsy();
-    const changeSpy: any = spyOn(directive, 'fsChangeHandler').and.returnValue(true);
+    const changeSpy: any = spyOn(directive, 'fsChangeHandler').and.returnValue();
     btnEl.triggerEventHandler('fullscreenchange', undefined);
     directive.fullScreenIsActive = true;
     fixture.detectChanges();
@@ -48,7 +48,7 @@ describe('TdFullscreenDirective', () => {
   });
 
   it('should trigger toggleFullscreen() on template', () => {
-    const toggleSpy: any = spyOn(directive, 'toggleFullScreen').and.returnValue(true);
+    const toggleSpy: any = spyOn(directive, 'toggleFullScreen').and.returnValue();
     btnEl.triggerEventHandler('click', undefined);
     fixture.detectChanges();
     expect(toggleSpy).toBeDefined();
@@ -65,7 +65,7 @@ describe('TdFullscreenDirective', () => {
   });
 
   it('should call enterFullScreen() on directive', async () => {
-    const enterSpy: any = spyOn(directive, 'enterFullScreen').and.returnValue(true);
+    const enterSpy: any = spyOn(directive, 'enterFullScreen').and.returnValue();
     btnEl.triggerEventHandler('click', undefined);
     fixture.detectChanges();
     await fixture.whenStable();
